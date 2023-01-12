@@ -19,15 +19,15 @@ class _passState extends State<pass> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Colors.blueGrey,
+      // backgroundColor: Colors.blueGrey,
         body: Container(
           decoration: BoxDecoration(
               gradient: LinearGradient(
                 begin: Alignment.topRight,
                 end: Alignment.bottomLeft,
                 colors: [
-                  Colors.blueGrey,
-                  Colors.green,
+                  Colors.lightGreen,
+                  Colors.indigoAccent,
                 ],
               )
           ),
