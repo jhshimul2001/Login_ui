@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_project/screen/fogot_pass.dart';
+import 'package:flutter_project/screen/login_succesfully.dart';
 
 
 
@@ -88,7 +89,9 @@ class _MyLoginState extends State<MyLogin> {
                                 borderRadius: BorderRadius.all(Radius.circular(50)),
                                 color: Colors.indigoAccent,
                               ),
-                              child: Text("Login account",style: TextStyle(color: Colors.white,fontSize: 22),),
+                              child: TextButton(onPressed: (){
+                                Navigator.push(context, MaterialPageRoute(builder: (context) =>Login()));
+                              },child: Text("Login account",style: TextStyle(color: Colors.white,fontSize: 22,),)),
                             ),
                             SizedBox(
                               height: 40,
