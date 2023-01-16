@@ -14,26 +14,6 @@ class _LoginState extends State<Login> {
       backgroundColor: Colors.blueGrey,
       body: Column(
         children: [
-          // Padding(
-          //   padding: const EdgeInsets.only(top: 60.0),
-          //   child: Center(
-          //     child: Container(
-          //       alignment: Alignment.center,
-          //         height: 200,
-          //         width: 200,
-          //         decoration: BoxDecoration(
-          //             borderRadius: BorderRadius.all(Radius.circular(100)),
-          //             border: Border.all(color: Colors.white,width: 2)
-          //         ),
-          //         child: ClipRRect(
-          //           borderRadius: BorderRadius.all(Radius.circular(100)),
-          //           child: Image.asset("",fit: BoxFit.fill,),
-          //
-          //         )
-          //
-          //     ),
-          //   ),
-          // ),
           Padding(
             padding: const EdgeInsets.only(top: 60.0),
             child: CircleAvatar(
