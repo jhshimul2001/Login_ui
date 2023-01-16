@@ -36,7 +36,7 @@ class _LoginState extends State<Login> {
                   ),
                   child: ClipRRect(
                     borderRadius: BorderRadius.all(Radius.circular(100)),
-                    child: Image.asset("assets/images/naimul.jpg",fit: BoxFit.cover,),
+                    child: Image.asset("assets/images/shimul.jpg",fit: BoxFit.cover,),
 
                   )
 
@@ -47,8 +47,8 @@ class _LoginState extends State<Login> {
             padding: const EdgeInsets.all(8.0),
             child: Column(
               children: [
-                Text("Name : Naimul Karim Hredoy",style: TextStyle(fontSize: 22,fontWeight: FontWeight.w600),),
-                Text("Email- naim@gmail.com",style: TextStyle(fontSize: 22,fontWeight: FontWeight.w600),),
+                Text("Name : Juvaid hasan shimul",style: TextStyle(fontSize: 22,fontWeight: FontWeight.w600),),
+                Text("Email- Shimuljhs869@gmail.com",style: TextStyle(fontSize: 22,fontWeight: FontWeight.w600),),
                 Text("Password : ******",style: TextStyle(fontSize: 22,fontWeight: FontWeight.w600),),
                 Text("Login Succesfully",style: TextStyle(fontSize: 42,fontWeight: FontWeight.w600,color: Colors.lightGreen),)
               ],
