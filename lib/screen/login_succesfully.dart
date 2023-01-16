@@ -14,33 +14,31 @@ class _LoginState extends State<Login> {
       backgroundColor: Colors.blueGrey,
       body: Column(
         children: [
-          // Container(
-          //   alignment: Alignment.center,
-          //   height: 300,
-          //   width: 300,
-          //   child: Image.network(""),
-          //   decoration: BoxDecoration(
-          //     borderRadius: BorderRadius.all(Radius.circular(15))
+          // Padding(
+          //   padding: const EdgeInsets.only(top: 60.0),
+          //   child: Center(
+          //     child: Container(
+          //       alignment: Alignment.center,
+          //         height: 200,
+          //         width: 200,
+          //         decoration: BoxDecoration(
+          //             borderRadius: BorderRadius.all(Radius.circular(100)),
+          //             border: Border.all(color: Colors.white,width: 2)
+          //         ),
+          //         child: ClipRRect(
+          //           borderRadius: BorderRadius.all(Radius.circular(100)),
+          //           child: Image.asset("",fit: BoxFit.fill,),
+          //
+          //         )
+          //
+          //     ),
           //   ),
-          // )
+          // ),
           Padding(
             padding: const EdgeInsets.only(top: 60.0),
-            child: Center(
-              child: Container(
-                alignment: Alignment.center,
-                  height: 200,
-                  width: 200,
-                  decoration: BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(100)),
-                      border: Border.all(color: Colors.white,width: 2)
-                  ),
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.all(Radius.circular(100)),
-                    child: Image.asset("assets/images/shimul.jpg",fit: BoxFit.cover,),
-
-                  )
-
-              ),
+            child: CircleAvatar(
+              backgroundImage: AssetImage("assets/images/shimul.jpg"),
+              radius: 80,
             ),
           ),
           Padding(
